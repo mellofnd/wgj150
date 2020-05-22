@@ -1,0 +1,16 @@
+/*
+!.gitignore
+!*.md
+!/Assets/
+!/Backup/
+!/Build/
+!/Builds/
+!/Editor
+!/Packages/
+!/ProjectSettings/
+!/Runtime/
+!/sdk/
+!/Tilesetter/
+!package.json
+!README.md
+!steam_appid.txt
