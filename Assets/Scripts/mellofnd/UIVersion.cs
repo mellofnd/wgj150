@@ -5,12 +5,15 @@ using UnityEngine;
 public class UIVersion : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI m_copyrightText;
+
     [SerializeField] private TextMeshProUGUI m_versionText;
 
     private static string s_copyright;
+
     private static string s_version;
+
     private static string s_date;
-    
+
     private void Awake()
     {
         if (Application.isEditor)
@@ -22,7 +25,7 @@ public class UIVersion : MonoBehaviour
 
         if (m_copyrightText)
             m_copyrightText.text = s_copyright;
-        
+
         if (m_versionText)
             m_versionText.text = $"{s_version} ({s_date})";
     }

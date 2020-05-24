@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace mellofnd
 {
-	[Serializable]
-	public class SoundTypeAudioClip
-	{
-		public AudioClip[] Clips;
+    [Serializable]
+    public class SoundTypeAudioClip
+    {
+        public AudioClip[] Clips;
 
-		public SoundType Type;
-	}
+        public SoundType Type;
+    }
 }

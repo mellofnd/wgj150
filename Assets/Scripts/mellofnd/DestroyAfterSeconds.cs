@@ -2,13 +2,13 @@
 
 namespace mellofnd
 {
-	public class DestroyAfterSeconds : MonoBehaviour
-	{
-		[SerializeField] private float m_seconds = 1f;
+    public class DestroyAfterSeconds : MonoBehaviour
+    {
+        public float Seconds = 1f;
 
-		private void Start()
-		{
-			Destroy(gameObject, m_seconds);
-		}
-	}
+        private void Start()
+        {
+            Destroy(gameObject, Seconds);
+        }
+    }
 }

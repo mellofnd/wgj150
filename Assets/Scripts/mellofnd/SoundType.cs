@@ -1,7 +1,6 @@
 ﻿namespace mellofnd
 {
-	public enum SoundType
-	{
-
-	}
+    public enum SoundType
+    {
+    }
 }
